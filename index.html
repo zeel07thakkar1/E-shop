@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/themify-icons.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <title>E-Shop</title>
+</head>
+
+<body>
+
+  <section id="header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-white fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="imgs/logo.png">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="ti-align-right navbar-toggler-icon menu-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item mx-2">
+                <a class="nav-link text-black" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-black" href="#products">Products</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-black" href="#special">Special</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-black" href="#testimonials">Testimonials</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-black" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+  <!------------->
+
+  <section id="home" class="home-slider">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imgs/slide1.jpg" class="d-block w-100" alt="banner-img">
+          <div class="slider-text-div">
+            <h2 class="fw-bold">E-Shop</h2>
+            <p>With Working Card & PayPal </p>
+            <button class="btn red-btn">Shop Now</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="imgs/slide2.jpg" class="d-block w-100" alt="banner-img">
+          <div class="slider-text-div">
+            <h2 class="fw-bold">Women's Fashion</h2>
+            <p>50% Discount for this Season</p>
+            <button class="btn red-btn">Shop Now</button>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!------------>
+
+  <section id="offer" class="offer-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 offer-sub-div-main">
+          <div class="offer-sub-div">
+            <img src="imgs/offer1.jpg" class="img-fluid">
+          </div>
+          <div class="offer-text-div text-center">
+            <h2 class="fw-bold">Sale 70%</h2>
+            <p>Don't miss this chance</p>
+            <button class="btn red-btn">Shop Now</button>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="offer-sub-div-main">
+            <div class="offer-sub-div">
+              <img src="imgs/offer2.jpg" class="img-fluid">
+            </div>
+            <div class="offer-text-div text-center">
+              <h2 class="fw-bold">Sale 40%</h2>
+              <p>Don't miss this chance</p>
+              <button class="btn red-btn">Shop Now</button>
+            </div>
+          </div>
+          <div class="offer-sub-div-main">
+            <div class="offer-sub-div mt-4">
+              <img src="imgs/offer3.jpg" class="img-fluid">
+            </div>
+            <div class="offer-text-div text-center">
+              <h2 class="fw-bold">Sale 50%</h2>
+              <p>Don't miss this chance</p>
+              <button class="btn red-btn">Shop Now</button>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-4 offer-sub-div-main">
+          <div class="offer-sub-div">
+            <img src="imgs/offer4.jpg" class="img-fluid">
+          </div>
+          <div class="offer-text-div text-center">
+            <h2 class="fw-bold">Sale 60%</h2>
+            <p>Don't miss this chance</p>
+            <button class="btn red-btn">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!------------>
+
+  <div class="product-section" id="product">
+
+    <div class="container text-center">
+      <h2 class="d-inline-block main-heading">Featured <span style="color: #ffc107d7;font-size: 40px;">P</span>roducts
+      </h2>
+    </div>
+
+    <div class="container pro-container pt-5">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 text-center ">
+            <div class="pro-card" data-label="New">
+              <img src="imgs/p1.jpg" class="card-img-top img-first" alt="...">
+              <img src="imgs/p2.jpg" class="card-img-top img-second" alt="...">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Summer Green Dress</h4>
+              <p class="card-text fw-bold mb-1 text-danger">$40.00 <del
+                  class="text-secondary fw-lighter ms-2">$60.00</del> </p>
+              <span class="ti-star text-warning"></span>
+              <span class="ti-star text-warning"></span>
+              <span class="ti-star text-warning"></span>
+              <span class="ti-star text-warning"></span>
+              <span class="ti-star"></span>
+            </div>
+            <div class="card-footer">
+              <button class="btn red-btn">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center ">
+            <div class="pro-card">
+              <img src="imgs/p2.jpg" class="card-img-top img-first" alt="...">
+              <img src="imgs/p3.jpg" class="card-img-top img-second" alt="...">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Summer white Dress</h4>
+              <p class="card-text fw-bold mb-1 text-danger">$40.00 <del
+                  class="text-secondary fw-lighter ms-2">$60.00</del> </p>
+              <span class="ti-star text-warning"></span>
+              <span class="ti-star text-warning"></span>
+              <span class="ti-star text-warning"></span>
+              <span class="ti-star text-warning"></span>
+              <span class="ti-star"></span>
+            </div>
+            <div class="card-footer">
+              <button class="btn red-btn">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center ">
+            <div class="pro-card">
+              <img src="imgs/p4.jpg" class="card-img-top img-first" alt="...">
+              <img src="imgs/p3.jpg" class="card-img-top img-second" alt="...">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Orange and Black Dress</h4>
+              <p class="card-text fw-bold mb-1 text-danger">$70.00 <del
+                  class="text-secondary fw-lighter ms-2">$100.00</del> </p>
+              <span class="ti-star text-warning"></span>
+              <span class="ti-star text-warning"></span>
+              <span class="ti-star text-warning"></span>
+              <span class="ti-star text-warning"></span>
+              <span class="ti-star"></span>
+            </div>
+            <div class="card-footer">
+              <button class="btn red-btn">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!------------->
+
+  <div class="container mid-banner">
+    <div class="mid-banner-div">
+      <img src="imgs/lg.jpg">
+    </div>
+  </div>
+  <!------------>
+
+  <div class="special-product bg-light py-4" id="specialPro">
+    <div class="container text-center">
+      <h2 class="d-inline-block main-heading">Summer <span style="color: #ffc107d7;font-size: 40px;">S</span>pecial</h2>
+    </div>
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="summer-special-left-div">
+            <h4 class="text-uppercase"><span style="color: var(--red);font-size: 30px;">S</span>exy
+              <span style="color: var(--red);font-size: 30px;">W</span>omen
+              <span style="color: var(--red);font-size: 30px;">M</span>aroon
+              <span style="color: var(--red);font-size: 30px;">C</span>oat
+            </h4>
+            <p class="text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem illo unde voluptas,
+              officia nostrum perferendis dignissimos quae libero ullam possimus magnam excepturi animi veritatis nemo
+              sequi quasi id beatae quibusdam.</p>
+            <ul class="list-unstyled countdown-counter d-flex">
+              <li><span class="fs-1 d-block" id="days">00</span> Days</li>
+              <li><span class="fs-1 d-block" id="hr">00</span> Hr</li>
+              <li><span class="fs-1 d-block" id="min">00</span> Min</li>
+              <li><span class="fs-1 d-block" id="sec">00</span> Sec</li>
+            </ul>
+            <span class="countdown-price h3 d-block mb-4">$420.00 <del>$670.00</del></span>
+            <button class="btn red-btn">Add To Cart</button>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="summer-special-right-div">
+            <div class="card h-100 text-center" style="z-index: 0;">
+              <div class="summer-special-right-div-card" data-label="Sale">
+                <img src="imgs/slide3.jpg" class="card-img-top img-first" alt="...">
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-------------->
+  <div class="testimonials py-5" id="client-feedback">
+    <div class="container text-center">
+      <h2 class="d-inline-block main-heading">Clients <span style="color: #ffc107d7;font-size: 40px;">F</span>eedback
+      </h2>
+    </div>
+
+    <div class="container pt-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div id="testimonials-slider" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="testimonials-div text-center">
+                  <div class="card border-0 testimonials-card">
+                    <div class="testimonials-img-div d-flex justify-content-center">
+                      <img src="imgs/user.png" class="card-img-top" alt="user-img">
+                    </div>
+
+                    <div class="card-body">
+                      <h4 class="card-title">Martin Joe</h4>
+                      <p class="text-success mb-2"><i class="badge rounded-pill bg-success">ABC Pvt Ltd.</i></p>
+                      <p class="card-text text-secondary"><span class="ti-quote-left me-2"></span>Some quick example
+                        text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. Dolorem ratione, ad quibusdam, officia a alias deserunt,
+                        hic autem natus qui sit atque omnis debitis dolorum. Dolorum omnis id a sequi.<span
+                          class="ti-quote-right ms-2"></span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="testimonials-div text-center">
+                  <div class="card border-0 testimonials-card">
+                    <div class="testimonials-img-div d-flex justify-content-center">
+                      <img src="imgs/user2.png" class="card-img-top" alt="user-img">
+                    </div>
+
+                    <div class="card-body">
+                      <h4 class="card-title">Travis John</h4>
+                      <p class="text-success mb-2"><i class="badge rounded-pill bg-success">XYZ Pvt Ltd.</i></p>
+                      <p class="card-text text-secondary"><span class="ti-quote-left me-2"></span>Some quick example
+                        text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. Dolorem ratione, ad quibusdam, officia a alias deserunt,
+                        hic autem natus qui sit atque omnis debitis dolorum. Dolorum omnis id a sequi.<span
+                          class="ti-quote-right ms-2"></span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="testimonials-div text-center">
+                  <div class="card border-0 testimonials-card">
+                    <div class="testimonials-img-div d-flex justify-content-center">
+                      <img src="imgs/user.png" class="card-img-top" alt="user-img">
+                    </div>
+
+                    <div class="card-body">
+                      <h4 class="card-title">Diana Marrial</h4>
+                      <p class="text-success mb-2"><i class="badge rounded-pill bg-success">Fastcompany Ltd.</i></p>
+                      <p class="card-text text-secondary"><span class="ti-quote-left me-2"></span>Some quick example
+                        text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. Dolorem ratione, ad quibusdam, officia a alias deserunt,
+                        hic autem natus qui sit atque omnis debitis dolorum. Dolorum omnis id a sequi.<span
+                          class="ti-quote-right ms-2"></span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonials-slider"
+              data-bs-slide="prev">
+              <span class="ti-arrow-left text-dark fw-bold" aria-hidden="true"></span>
+
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonials-slider"
+              data-bs-slide="next">
+              <span class="ti-arrow-right text-dark fw-bold" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!--------------->
+
+  <div class="contact-us bg-light py-5" id="contact">
+    <div class="container text-center">
+      <p class="mb-0 contact-us-p">Let's Start a Conversation</p>
+      <h2 class="d-inline-block main-heading">Contact <span style="color: #ffc107d7;font-size: 40px;">U</span>s</h2>
+    </div>
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="contact-left-div">
+            <h5 class="fw-bold">Contact Info</h5>
+            <p class="mt-4"><span class="ti-location-pin me-3 contact-icon "></span>Lorem ipsum dolor Lorem</p>
+            <p class="mt-4"><span class="ti-email me-3 contact-icon"></span>eshop@gmail.com</p>
+            <p class="mt-4"><span class="ti-mobile me-3 contact-icon"></span>+1 (130) 712-0116</p>
+
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="contact-right-div">
+            <div class="contact-form">
+              <div class="row form-group">
+                <div class="col-lg-6">
+                  <input type="name" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="col-lg-6">
+                  <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+              </div>
+              <div class="row form-group mt-4">
+                <div class="col-lg-12">
+                  <textarea class="form-control" id="msg" rows="3" placeholder="Your Message"></textarea>
+                </div>
+              </div>
+              <button class="btn red-btn mt-4"><span class="ti-rocket"></span> Send Message</button>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!------------->
+  <div class="container-fluid bottom">
+    <div class="container py-5">
+      <div class="row text-white">
+         <div class="col-lg-7">
+          <p class="mb-0">Copyright © 2021 E-Shop All Rights Reserved</p>
+         </div>
+         <div class="col-lg-5 text-end">
+           <p class="mb-0">Designed by Zeel Thakkar</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
