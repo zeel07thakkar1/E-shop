@@ -419,3 +419,131 @@ body{
     background: linear-gradient(90deg, rgba(246,52,64,1) 0%, rgba(252,176,69,1) 100%);
 }
 
+@media screen and (max-width:768px) {
+
+    #testimonials-slider .carousel-control-next,
+    #testimonials-slider .carousel-control-prev
+    {
+        display: none;
+    }
+    .home-slider .carousel-inner .carousel-item .slider-text-div
+    {
+        top: 26%;
+    }
+    .pro-card[data-label]::after, .summer-special-right-div-card::after
+    {
+        right: -9px;
+    }
+    .pro-card[data-label]::before, .summer-special-right-div-card::before
+    {
+        right: -3px;
+    }
+    .slider-text-div h2
+    {
+        font-size: 40px;
+    }
+    .card-title
+    {
+        font-size: 18px;
+    }
+    .pro-card
+    {
+        height: 140px;
+    }
+    .mid-banner-div
+    {
+        height: 160px;
+    }
+    .mid-banner-div::after
+    {
+        letter-spacing: 4px;
+        font-size: 17px;
+    }
+    .contact-right-div .email-input
+    {
+        margin-top: 15px;
+    }
+    .contact-right-div #msg
+    {
+        margin-top: -10px;
+    }
+    .offer-sub-div
+    {
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .offer-sub-div-main-div
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 25px;
+    }
+    .summer-special-left-div
+    {
+        margin-bottom: 25px;
+    }
+    .home-slider ,.offer-section, .product-section ,.mid-banner
+    {
+        padding-bottom:30px;
+    }
+    
+}
+
+@media screen and (max-width:767px) {
+
+    p
+    {
+        font-size: small;
+    }
+    .main-heading
+    {
+        font-size: 20px;
+    }
+    .pro-card
+    {
+        height: 200px;
+    }
+    .home-slider .carousel-inner .carousel-item .slider-text-div
+    {
+        top: 20%;
+    }
+    .slider-text-div h2
+    {
+        font-size: 24px;
+    }
+    .slider-text-div p
+    {
+        font-size: 11px;
+    }
+    .red-btn
+    {
+        padding: 0px 8px;
+    }
+    .summer-special-right-div
+    {
+        margin-top: 20px;
+    }
+    .offer-sub-div-main-div
+    {
+        
+        grid-column-gap: 5px;
+    }
+    .offer-text-div
+    {
+        width: 100%;
+    }
+    .offer-sub-div-main p {
+        letter-spacing: 1px;
+        font-size: 13px;
+    }
+    .summer-special-left-div h4
+    {
+        font-size: 15px;
+    }
+    .summer-special-left-div
+    {
+        margin-bottom: 0px;
+    }
+    
+}
+
